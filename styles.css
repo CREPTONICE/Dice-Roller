@@ -61,8 +61,11 @@ button {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  /* background-color: rgb(255, 250, 210); */
   padding: 2rem;
   border-radius: 20px;
   height: auto;
@@ -109,11 +112,13 @@ main {
 #diceNumber {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  max-width: 6ch;
 }
 
 #diceImage img {
   width: 200px;
   margin-bottom: 0.5rem;
+  margin-inline: auto;
 }
 
 /* REMOVE ARROWS IN INPUT NUMBER */
